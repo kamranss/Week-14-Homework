@@ -14,8 +14,6 @@ namespace Service.Controllers
         {
             IloginService loginservice = new LoginService();
 
-            
-
             loginservice.Login(UserInfoService.CheckCredentials, username, password);
         }
 

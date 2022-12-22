@@ -18,10 +18,12 @@ namespace Service.Service
             };
             return user;
         }
+
         public static bool CheckCredentials(string username, string password)
         {
             return username == UserInfoService.GetUser().Username && password == UserInfoService.GetUser().Password;
         }
-       
+      
     }
 }
+

@@ -4,3 +4,4 @@
 using Service.Controllers;
 
 LoginController.CheckLoginInput();
+FactorialController.CheckFactorial();
