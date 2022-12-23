@@ -1,5 +1,5 @@
-﻿using Service.Service;
-using Service.Service.Interfaces;
+﻿using Service.Service.Interfaces;
+using Service.Service.LoginService;
 using System;
 using System.Collections.Generic;
 using System.Linq;

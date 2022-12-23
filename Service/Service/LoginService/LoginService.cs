@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Service
+namespace Service.Service.LoginService
 {
     public class LoginService : IloginService
     {
-        
-        public  void Login(Func<string, string, bool> function, string username, string password)
+
+        public void Login(Func<string, string, bool> function, string username, string password)
         {
             try
             {
@@ -30,9 +30,9 @@ namespace Service.Service
 
                 Console.WriteLine(message.Message);
             }
-           
+
         }
-       
-        
+
+
     }
 }

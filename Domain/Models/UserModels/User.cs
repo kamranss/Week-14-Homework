@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Models
+namespace Domain.Models.UserModels
 {
-    public class User:BaseEntity
+    public class User : BaseEntity
     {
         public string Username { get; set; }
         public string Password { get; set; }

@@ -1,11 +1,11 @@
-﻿using Domain.Models;
+﻿using Domain.Models.UserModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Service
+namespace Service.Service.LoginService
 {
     internal class UserInfoService
     {
@@ -21,9 +21,9 @@ namespace Service.Service
 
         public static bool CheckCredentials(string username, string password)
         {
-            return username == UserInfoService.GetUser().Username && password == UserInfoService.GetUser().Password;
+            return username == GetUser().Username && password == GetUser().Password;
         }
-      
+
     }
 }
 

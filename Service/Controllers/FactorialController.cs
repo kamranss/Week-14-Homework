@@ -1,4 +1,4 @@
-﻿using Service.Service;
+﻿using Service.Service.FactorialService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace Service.Controllers
         {
             FactorialService factorial1 = new FactorialService();
 
-            factorial1.Factorial(FactorialService.CheckNumber, number);
+            factorial1.Factorial(FactorialServiceSupporters.CheckNumber, number);
             
         }
 
